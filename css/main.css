@@ -855,6 +855,11 @@ footer a {
 
 
 @media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
     .container {
         max-width: 560px;
     }
@@ -949,6 +954,11 @@ footer a {
 }
 
 @media screen and (max-width: 576px) {
+
+    body {
+        overflow-x: hidden
+    }
+
     .container {
         max-width: 350px;
         margin: 0 auto;
@@ -1209,6 +1219,10 @@ footer a {
 }
 
 @media screen and (max-width: 390px) {
+
+    body {
+        overflow-x: hidden
+    }
     
     .container  {
         max-width: 250px;
