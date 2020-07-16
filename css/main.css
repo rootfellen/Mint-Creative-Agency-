@@ -856,10 +856,7 @@ footer a {
 
 @media screen and (max-width: 768px) {
 
-    body {
-        overflow-x: hidden;
-    }
-    
+
     .container {
         max-width: 560px;
     }
@@ -955,9 +952,6 @@ footer a {
 
 @media screen and (max-width: 576px) {
 
-    body {
-        overflow-x: hidden
-    }
 
     .container {
         max-width: 350px;
@@ -980,7 +974,7 @@ footer a {
     }
 
     form {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1216,13 +1210,18 @@ footer a {
 
     }
 
+    .input_notes, .input_email, .input_name {
+        max-width: 220px;
+    }
+
+    .input_name, .input_email {
+        margin-right: 0px;
+    }
+
 }
 
 @media screen and (max-width: 390px) {
 
-    body {
-        overflow-x: hidden
-    }
     
     .container  {
         max-width: 250px;
