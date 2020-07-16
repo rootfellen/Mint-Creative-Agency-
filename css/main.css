@@ -951,6 +951,7 @@ footer a {
 @media screen and (max-width: 576px) {
     .container {
         max-width: 350px;
+        margin: 0 auto;
     }
     .blog__post {
         padding: 0;
@@ -1211,6 +1212,7 @@ footer a {
     
     .container  {
         max-width: 250px;
+        margin: 0 auto;
     }
 
     .hero__img {
